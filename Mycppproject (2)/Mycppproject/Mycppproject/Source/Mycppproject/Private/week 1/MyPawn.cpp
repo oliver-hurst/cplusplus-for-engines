@@ -6,6 +6,7 @@
 #include "week 1/MyPawn.h"
 #include "week 1/MyPawn.h"
 #include "Components/SphereComponent.h"
+#include "EnhancedInputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/FloatingPawnMovement.h"
 #include "week 1/MyPawn.h"
@@ -35,9 +36,10 @@ AMyPawn::AMyPawn()
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("springarm"));
 	SpringArm->SetupAttachment(SphereCollision);
-	SpringArm->SetRelativeRotation(FRotator(-60.0f,0.0f,0.0f));
+	SpringArm->SetRelativeRotation(FRotator(0.0f,0.0f,0.0f));
 	SpringArm->TargetArmLength = 2200.0f;
 	SpringArm->bDoCollisionTest = false;
+	SpringArm->bInheritYaw = false;
 	SpringArm->bEnableCameraLag = true;
 	SpringArm->CameraLagSpeed = 0.5f;
 
@@ -92,6 +94,12 @@ void AMyPawn::Tick(float DeltaTime)
 void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	if (UEnhancedInputComponent*EIC = Cast<UEnhancedInputComponent>(PlayerInputComponent))
+	{
+		EIC->BindAction(InputAction, ETriggerEvent::Triggered,this ,&AMyPawn::DoInteract);
+		
+	}
 	
 }
 
@@ -110,5 +118,10 @@ void AMyPawn::SetActorOverlapEvent_Implementation(AActor* OverlappedActor)
 {
 	Icpp_player_interface::SetActorOverlapEvent_Implementation(OverlappedActor);
 	MyOverlappedActorRef = OverlappedActor;
+}
+
+void AMyPawn::DoInteract()
+{
+	UE_LOG(LogTemp, Display, TEXT("do interact"));
 }
 

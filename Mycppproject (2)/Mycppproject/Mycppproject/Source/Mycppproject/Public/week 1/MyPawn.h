@@ -36,6 +36,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TObjectPtr<UFloatingPawnMovement> Movement;
 
+	
+	
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -81,7 +84,4 @@ private:
 };
 
 
-inline void AMyPawn::DoInteract()
-{
-	UE_LOG(LogTemp, Display, TEXT("do interact"));
-}
+

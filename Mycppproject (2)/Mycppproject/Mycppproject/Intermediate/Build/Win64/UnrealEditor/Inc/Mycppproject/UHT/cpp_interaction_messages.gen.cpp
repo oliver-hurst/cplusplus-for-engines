@@ -154,14 +154,14 @@ DEFINE_VTABLE_PTR_HELPER_CTOR(Ucpp_interaction_messages);
 // ********** End Interface Ucpp_interaction_messages **********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_cpp_interaction_messages_h__Script_Mycppproject_Statics
+struct Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_cpp_interaction_messages_h__Script_Mycppproject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_Ucpp_interaction_messages, Ucpp_interaction_messages::StaticClass, TEXT("Ucpp_interaction_messages"), &Z_Registration_Info_UClass_Ucpp_interaction_messages, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(Ucpp_interaction_messages), 3654891682U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_cpp_interaction_messages_h__Script_Mycppproject_523546517(TEXT("/Script/Mycppproject"),
-	Z_CompiledInDeferFile_FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_cpp_interaction_messages_h__Script_Mycppproject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_cpp_interaction_messages_h__Script_Mycppproject_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_cpp_interaction_messages_h__Script_Mycppproject_523546517(TEXT("/Script/Mycppproject"),
+	Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_cpp_interaction_messages_h__Script_Mycppproject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_cpp_interaction_messages_h__Script_Mycppproject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

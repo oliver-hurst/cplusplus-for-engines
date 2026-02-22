@@ -11,7 +11,7 @@
     <None Include="..\..\Source\MycppprojectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Mycppproject.sln.DotSettings.user" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -63,6 +63,9 @@
     <ClCompile Include="..\..\Source\Mycppproject\Private\week 1_task2\Checkpoint.cpp">
       <Filter>Source\Mycppproject\Private\week 1_task2</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Mycppproject\Private\week 1_task2\cpp_interaction_messages.cpp">
+      <Filter>Source\Mycppproject\Private\week 1_task2</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Mycppproject\Private\week 1_task2\cpp_player_interface.cpp">
       <Filter>Source\Mycppproject\Private\week 1_task2</Filter>
     </ClCompile>
@@ -85,6 +88,9 @@
       <UniqueIdentifier>{D5AE7F6E-DD70-35D7-9605-5248B7562BC9}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Mycppproject\Public\week 1_task2\Checkpoint.h">
+      <Filter>Source\Mycppproject\Public\week 1_task2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Mycppproject\Public\week 1_task2\cpp_interaction_messages.h">
       <Filter>Source\Mycppproject\Public\week 1_task2</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Mycppproject\Public\week 1_task2\cpp_player_interface.h">

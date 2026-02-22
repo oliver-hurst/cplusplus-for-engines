@@ -21,21 +21,21 @@ class UPrimitiveComponent;
 struct FHitResult;
 
 // ********** Begin Delegate FEndGaneSignature *****************************************************
-#define FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_13_DELEGATE \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_13_DELEGATE \
 MYCPPPROJECT_API void FEndGaneSignature_DelegateWrapper(const FMulticastScriptDelegate& EndGaneSignature, const FString& EndMessage);
 
 
 // ********** End Delegate FEndGaneSignature *******************************************************
 
 // ********** Begin Class ACheckpoint **************************************************************
-#define FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execCheckpointOverlapEnd); \
 	DECLARE_FUNCTION(execCheckpointOverlapped);
 
 
 MYCPPPROJECT_API UClass* Z_Construct_UClass_ACheckpoint_NoRegister();
 
-#define FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACheckpoint(); \
 	friend struct Z_Construct_UClass_ACheckpoint_Statics; \
@@ -47,7 +47,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<ACheckpoint*>(this); }
 
 
-#define FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ACheckpoint(ACheckpoint&&) = delete; \
 	ACheckpoint(const ACheckpoint&) = delete; \
@@ -57,13 +57,13 @@ public: \
 	NO_API virtual ~ACheckpoint();
 
 
-#define FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_14_PROLOG
-#define FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_GENERATED_BODY \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_14_PROLOG
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -73,6 +73,6 @@ class ACheckpoint;
 // ********** End Class ACheckpoint ****************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_h021185l_Downloads_Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h
+#define CURRENT_FILE_ID FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_task2_Checkpoint_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

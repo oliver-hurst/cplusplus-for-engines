@@ -61,15 +61,15 @@ void ACheckpoint::DoInteract_Implementation()
 
 	if (OnEndGameDelagate.IsBound())
 	{
+		
 		OnEndGameDelagate.Broadcast((TEXT("End game")));
 	}
 }
 
-void ACheckpoint::CheckpointOverlapped(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-                                       UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void ACheckpoint::CheckpointOverlapped(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-
-
+	
+	UE_LOG(LogTemp,Warning,TEXT("overlapped"));
 	if (UKismetSystemLibrary::DoesImplementInterface(OtherActor, Ucpp_player_interface::StaticClass()))
 	{
 		UE_LOG(LogTemp,Warning,TEXT("overlapped"));
@@ -77,10 +77,9 @@ void ACheckpoint::CheckpointOverlapped(UPrimitiveComponent* OverlappedComponent,
 	}
 }
 
-void ACheckpoint::CheckpointOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+void ACheckpoint::CheckpointOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	
+	UE_LOG(LogTemp,Error,TEXT("overlap ended"));
 	if (UKismetSystemLibrary::DoesImplementInterface(OtherActor, Ucpp_player_interface::StaticClass()))
 	{
 		UE_LOG(LogTemp,Error,TEXT("overlap ended"));
@@ -88,4 +87,6 @@ void ACheckpoint::CheckpointOverlapEnd(UPrimitiveComponent* OverlappedComponent,
 	}
 }
 
+
+	
 
