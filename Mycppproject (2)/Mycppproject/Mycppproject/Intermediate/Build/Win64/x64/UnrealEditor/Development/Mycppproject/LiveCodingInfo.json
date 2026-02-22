@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Mycppproject.gen.cpp.obj": [
+			"Checkpoint.gen.cpp.obj",
+			"cpp_interaction_messages.gen.cpp.obj",
+			"cpp_player_interface.gen.cpp.obj",
+			"Mycppproject.init.gen.cpp.obj",
+			"MyPawn.gen.cpp.obj",
+			"myPlayerController.gen.cpp.obj",
+			"my_gamemode.gen.cpp.obj"
+		]
+	}
+}

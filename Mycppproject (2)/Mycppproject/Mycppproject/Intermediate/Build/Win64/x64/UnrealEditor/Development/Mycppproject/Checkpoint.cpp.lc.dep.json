@@ -1,0 +1,38 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\source\\mycppproject\\private\\week 1_task2\\checkpoint.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\intermediate\\build\\win64\\x64\\mycppprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mycppproject\\definitions.mycppproject.h",
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\source\\mycppproject\\public\\week 1_task2\\checkpoint.h",
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\source\\mycppproject\\public\\week 1_task2\\cpp_interaction_messages.h",
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\mycppproject\\uht\\cpp_interaction_messages.generated.h",
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\mycppproject\\uht\\checkpoint.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\source\\mycppproject\\public\\week 1\\my_gamemode.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\mycppproject\\uht\\my_gamemode.generated.h",
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\source\\mycppproject\\public\\week 1_task2\\cpp_player_interface.h",
+            "c:\\users\\h021185l\\downloads\\mycppproject\\mycppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\mycppproject\\uht\\cpp_player_interface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Plugins/CheckpointExample/Content/BP_Pawn_Checkpoints.uasset",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Plugins/CheckpointExample/Content/BP_ExampleCheckpoint.uasset",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Plugins/CheckpointExample/Content/BP_newExampleCheckpoint1.uasset",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Plugins/CheckpointExample/Content/bpi_playermessage.uasset",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Content/stuff(important)/week1_task2/bp_MyCheckpoint.uasset",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Content/stuff(important)/week1/bp_my_gamemode.uasset",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Plugins/CheckpointExample/Content/Lvl_Checkpoints.umap",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Plugins/CheckpointExample/Content/__ExternalActors__/Lvl_Checkpoints/4/0L/XL5CZ3F12NFHOB7VRF52L9.uasset",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Plugins/CheckpointExample/Content/__ExternalActors__/Lvl_Checkpoints/2/6G/Z8ZECX6L6PUWWC5N3ZQHX1.uasset",
+				"C:/Users/h021185l/Downloads/Mycppproject/Mycppproject/Plugins/CheckpointExample/Content/__ExternalActors__/Lvl_Checkpoints/6/96/FR47JFWGOA6P3EBHKDVYEK.uasset",
+				"C:/Users/h021185l/Documents/Unreal Projects/Mycppproject/Content/stuff(important)/week1/bp_my_gamemode.uasset",
+				"C:/Users/h021185l/Documents/Unreal Projects/Mycppproject/Content/stuff(important)/week1/bp_myPlayerController.uasset",
+				"C:/Users/h021185l/Documents/Unreal Projects/Mycppproject/Plugins/TwinStick/Content/Blueprints/BP_TwinStickPawn1.uasset",
+				"C:/Users/h021185l/Documents/Unreal Projects/Mycppproject/Plugins/TwinStick/Content/Blueprints/BP_testTwinStickPawn1.uasset",
+				"C:/Users/h021185l/Documents/Unreal Projects/Mycppproject/Content/stuff(important)/week1/BP_testTwinStickPawn1.uasset",
+				"C:/Users/h021185l/Documents/Unreal Projects/Mycppproject/Plugins/TwinStick/Content/Blueprints/BP_TwinStickGameMode.uasset",
+				"C:/Users/h021185l/Documents/Unreal Projects/Mycppproject/Content/stuff(important)/week1/bp_MyPawn.uasset"
+			]
+		}
+	]
+}
