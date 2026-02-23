@@ -37,7 +37,7 @@ AMyPawn::AMyPawn()
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("springarm"));
 	SpringArm->SetupAttachment(SphereCollision);
-	SpringArm->SetRelativeRotation(FRotator(0.0f,0.0f,0.0f));
+	SpringArm->SetRelativeRotation(FRotator(-60.0f,0.0f,0.0f));
 	SpringArm->TargetArmLength = 2200.0f;
 	SpringArm->bDoCollisionTest = false;
 	SpringArm->bInheritYaw = false;
@@ -60,38 +60,48 @@ void AMyPawn::BeginPlay()
 {
 	Super::BeginPlay();
 
-	MyPCRef = UGameplayStatics::GetPlayerController(this , 0);
+	MyPCRef = UGameplayStatics::GetPlayerController( GetWorld() , 0);
 }
 
 // Called every frame
-void AMyPawn::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
 
-	OldRotation = FRotator(GetActorRotation());
-	if (bIsUsingMouse)
+	void AMyPawn::Tick(float DeltaTime)
 	{
-		if (!MyPCRef)
-			return;
-		FHitResult Hit;
-		if (MyPCRef->GetHitResultUnderCursorByChannel(Tracechannel,true,Hit))
+		Super::Tick(DeltaTime);
+		OldRotation = FRotator(GetActorRotation());
+		if (bIsUsingMouse)
 		{
-			const FVector HitLocation = Hit.Location;
-			const FVector OwnerLocation = GetActorLocation();
+			if (!MyPCRef)
+			{
+				return;
+			}
+			FHitResult Hit;
+			
+				if (MyPCRef->GetHitResultUnderCursorByChannel(TraceChannel, true, Hit))
+				{
+					const FVector HitLocation = Hit.Location;
+					const FVector OwnerLocation = GetActorLocation();
 
-			FRotator LookAt = UKismetMathLibrary:: FindLookAtRotation(OwnerLocation,HitLocation);
-			AimAngle = LookAt.Yaw;
+					FRotator LookAt = UKismetMathLibrary::FindLookAtRotation(OwnerLocation, HitLocation);
+					AimAngle = LookAt.Yaw;
 
-			FRotator NewRotation = FRotator(OldRotation.Pitch,AimAngle,OldRotation.Yaw);
-			SetActorRotation(NewRotation);
+					FRotator NewRotation = FRotator(OldRotation.Pitch,AimAngle, OldRotation.Roll);
+					SetActorRotation(NewRotation);
+				
+				}
+				else
+				{
+					FRotator NewRotation = FRotator(OldRotation.Pitch,AimAngle, OldRotation.Roll);
+					SetActorRotation(NewRotation);
+				}
+			
+			
+				
+		
+			}
+
+	
 		}
-		else
-		{
-			FRotator NewRotation = FRotator(OldRotation.Pitch,AimAngle,OldRotation.Yaw);
-			SetActorRotation(NewRotation);
-		}
-	}
-}
 
 // Called to bind functionality to input
 void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

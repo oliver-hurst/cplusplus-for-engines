@@ -73,7 +73,7 @@ public:
 	TObjectPtr<APlayerController>MyPCRef = nullptr;
 
 	UPROPERTY(EditDefaultsOnly,BlueprintReadWrite, Category="Aim")
-	TEnumAsByte<ETraceTypeQuery> Tracechannel = TraceTypeQuery1;
+	TEnumAsByte<ETraceTypeQuery> TraceChannel = TraceTypeQuery1;
 
 private:
 	FVector2D LastInputValue;

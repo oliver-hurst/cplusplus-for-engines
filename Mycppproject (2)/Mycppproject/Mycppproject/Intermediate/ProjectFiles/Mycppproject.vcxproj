@@ -352,6 +352,7 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Mycppproject\Mycppproject.h"/>
+    <ClCompile Include="..\..\Source\Mycppproject\Private\wee2 part 1\BaseProjectile.cpp" />
     <ClCompile Include="..\..\Source\Mycppproject\Private\wee2 part 1\HealthComponent.cpp" />
     <ClCompile Include="..\..\Source\Mycppproject\Private\week 1\MyPawn.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -371,6 +372,7 @@
     <ClCompile Include="..\..\Source\Mycppproject\Private\week 1_task2\cpp_player_interface.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Mycppproject\Public\wee2 part 1\BaseProjectile.h" />
     <ClInclude Include="..\..\Source\Mycppproject\Public\wee2 part 1\HealthComponent.h" />
     <ClInclude Include="..\..\Source\Mycppproject\Public\week 1\MyPawn.h"/>
     <ClInclude Include="..\..\Source\Mycppproject\Public\week 1\myPlayerController.h"/>
