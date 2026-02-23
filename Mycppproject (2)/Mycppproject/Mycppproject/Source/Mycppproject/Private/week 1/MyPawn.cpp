@@ -15,6 +15,7 @@
 #include "GameFramework/PawnMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "wee2 part 1/HealthComponent.h"
 
 
 // Sets default values
@@ -48,6 +49,8 @@ AMyPawn::AMyPawn()
 	Camera->SetupAttachment(SpringArm);
 
 	Movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("movement"));
+
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("health"));
 	
 	
 }

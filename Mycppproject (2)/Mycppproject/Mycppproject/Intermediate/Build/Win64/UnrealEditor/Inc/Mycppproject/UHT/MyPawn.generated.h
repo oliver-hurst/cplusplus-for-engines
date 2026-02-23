@@ -17,14 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AMyPawn ******************************************************************
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDoInteract); \
 	DECLARE_FUNCTION(execDoMove);
 
 
 MYCPPPROJECT_API UClass* Z_Construct_UClass_AMyPawn_NoRegister();
 
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyPawn(); \
 	friend struct Z_Construct_UClass_AMyPawn_Statics; \
@@ -36,7 +36,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AMyPawn*>(this); }
 
 
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_19_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMyPawn(AMyPawn&&) = delete; \
 	AMyPawn(const AMyPawn&) = delete; \
@@ -46,13 +46,13 @@ public: \
 	NO_API virtual ~AMyPawn();
 
 
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_15_PROLOG
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_18_GENERATED_BODY \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_16_PROLOG
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_18_ENHANCED_CONSTRUCTORS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_week_1_MyPawn_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

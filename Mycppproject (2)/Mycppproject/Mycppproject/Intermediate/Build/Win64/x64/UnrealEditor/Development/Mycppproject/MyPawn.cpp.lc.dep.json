@@ -52,7 +52,9 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
-            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl"
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "c:\\users\\h021185l\\documents\\github\\cplusplus-for-engines\\mycppproject (2)\\mycppproject\\mycppproject\\source\\mycppproject\\public\\wee2 part 1\\healthcomponent.h",
+            "c:\\users\\h021185l\\documents\\github\\cplusplus-for-engines\\mycppproject (2)\\mycppproject\\mycppproject\\intermediate\\build\\win64\\unrealeditor\\inc\\mycppproject\\uht\\healthcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

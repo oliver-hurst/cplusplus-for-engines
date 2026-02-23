@@ -8,6 +8,7 @@
 #include "week 1_task2/cpp_player_interface.h"
 #include "MyPawn.generated.h"
 
+class UHealthComponent;
 class UFloatingPawnMovement;
 class USphereComponent;
 class UCameraComponent;
@@ -36,7 +37,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TObjectPtr<UFloatingPawnMovement> Movement;
 
-	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	TObjectPtr<UHealthComponent> HealthComponent;
 	
 
 protected:

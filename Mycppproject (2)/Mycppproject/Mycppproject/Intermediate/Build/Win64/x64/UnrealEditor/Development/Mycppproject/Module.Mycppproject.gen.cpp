@@ -2,6 +2,7 @@
 #include "C:/Users/h021185l/Documents/GitHub/cplusplus-for-engines/Mycppproject (2)/Mycppproject/Mycppproject/Intermediate/Build/Win64/UnrealEditor/Inc/Mycppproject/UHT/Checkpoint.gen.cpp"
 #include "C:/Users/h021185l/Documents/GitHub/cplusplus-for-engines/Mycppproject (2)/Mycppproject/Mycppproject/Intermediate/Build/Win64/UnrealEditor/Inc/Mycppproject/UHT/cpp_interaction_messages.gen.cpp"
 #include "C:/Users/h021185l/Documents/GitHub/cplusplus-for-engines/Mycppproject (2)/Mycppproject/Mycppproject/Intermediate/Build/Win64/UnrealEditor/Inc/Mycppproject/UHT/cpp_player_interface.gen.cpp"
+#include "C:/Users/h021185l/Documents/GitHub/cplusplus-for-engines/Mycppproject (2)/Mycppproject/Mycppproject/Intermediate/Build/Win64/UnrealEditor/Inc/Mycppproject/UHT/HealthComponent.gen.cpp"
 #include "C:/Users/h021185l/Documents/GitHub/cplusplus-for-engines/Mycppproject (2)/Mycppproject/Mycppproject/Intermediate/Build/Win64/UnrealEditor/Inc/Mycppproject/UHT/Mycppproject.init.gen.cpp"
 #include "C:/Users/h021185l/Documents/GitHub/cplusplus-for-engines/Mycppproject (2)/Mycppproject/Mycppproject/Intermediate/Build/Win64/UnrealEditor/Inc/Mycppproject/UHT/MyPawn.gen.cpp"
 #include "C:/Users/h021185l/Documents/GitHub/cplusplus-for-engines/Mycppproject (2)/Mycppproject/Mycppproject/Intermediate/Build/Win64/UnrealEditor/Inc/Mycppproject/UHT/myPlayerController.gen.cpp"
