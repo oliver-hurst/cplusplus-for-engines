@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Mycppproject.gen.cpp.obj": [
+			"BaseProjectile.gen.cpp.obj",
 			"Checkpoint.gen.cpp.obj",
 			"cpp_interaction_messages.gen.cpp.obj",
 			"cpp_player_interface.gen.cpp.obj",

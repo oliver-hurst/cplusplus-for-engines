@@ -28,13 +28,13 @@ MYCPPPROJECT_API void FOnDeathEvent_DelegateWrapper(const FMulticastScriptDelega
 // ********** End Delegate FOnDeathEvent ***********************************************************
 
 // ********** Begin Class UHealthComponent *********************************************************
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(exectakeDamage);
 
 
 MYCPPPROJECT_API UClass* Z_Construct_UClass_UHealthComponent_NoRegister();
 
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend struct Z_Construct_UClass_UHealthComponent_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthComponent)
 
 
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_17_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UHealthComponent(UHealthComponent&&) = delete; \
 	UHealthComponent(const UHealthComponent&) = delete; \
@@ -55,13 +55,13 @@ public: \
 	NO_API virtual ~UHealthComponent();
 
 
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_13_PROLOG
-#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_16_GENERATED_BODY \
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_14_PROLOG
+#define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_HealthComponent_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

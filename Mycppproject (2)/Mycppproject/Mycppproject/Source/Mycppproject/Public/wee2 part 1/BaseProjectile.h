@@ -15,6 +15,7 @@ class MYCPPPROJECT_API ABaseProjectile : public AActor
 	GENERATED_BODY()
 
 public:
+	
 	// Sets default values for this actor's properties
 	ABaseProjectile();
 	
@@ -40,5 +41,8 @@ public:
 	float baseDamage = 10.0f;
 
 	UFUNCTION()
-	void ProJectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,UPrimitiveComponent*OtherComp,FVector NormalImpulse, const FHitResult& Hit);
+	void ProJectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
+		UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	
+	
 };

@@ -49,10 +49,10 @@ void ABaseProjectile::Tick(float DeltaTime)
 void ABaseProjectile::ProJectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	UGameplayStatics::ApplyDamage(OtherActor, baseDamage, nullptr, this,
-		nullptr);
+	UGameplayStatics::ApplyDamage(OtherActor, baseDamage, nullptr, this, nullptr);
 
 	Destroy();
-	
 }
+
+
 

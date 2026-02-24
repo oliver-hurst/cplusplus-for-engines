@@ -20,8 +20,8 @@ void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
-	
+	CurrentHealth = MaxHealth;
+	GetOwner()->OnTakeAnyDamage.AddUniqueDynamic(this, &UHealthComponent::takeDamage);	
 }
 
 
@@ -31,22 +31,22 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	CurrentHealth = MaxHealth;
-	GetOwner()->OnTakeAnyDamage.AddUniqueDynamic(this, &UHealthComponent::takeDamage);
+	
 }
 
 void UHealthComponent::takeDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType,
 	class AController* InstigatedBy, AActor* DamageCauser)
 {
-	CurrentHealth = FMath::Clamp(CurrentHealth - Damage, 0.0f, MaxHealth);
-	UE_LOG(LogTemp,Warning,TEXT("Current Health: %f"), CurrentHealth);
+	CurrentHealth = FMath::Clamp(CurrentHealth - Damage , 0.0f, MaxHealth);
+	UE_LOG(LogTemp,Warning,TEXT("health: %f"), CurrentHealth);
 
-	if (CurrentHealth <= 0.0f)
+	if (CurrentHealth<=0.0f)
 	{
+		UE_LOG(LogTemp,Warning,TEXT("health out of range"));
 		if (OnDeathEvent.IsBound())
-		{
 			OnDeathEvent.Broadcast();
-		}
 	}
 }
+
+
 

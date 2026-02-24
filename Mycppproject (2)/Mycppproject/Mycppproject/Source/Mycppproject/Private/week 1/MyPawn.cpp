@@ -50,7 +50,7 @@ AMyPawn::AMyPawn()
 
 	Movement = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("movement"));
 
-	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("health"));
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComponent"));
 	
 	
 }

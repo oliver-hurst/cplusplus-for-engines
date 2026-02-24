@@ -10,6 +10,7 @@
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnDeathEvent);
 
+
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class MYCPPPROJECT_API UHealthComponent : public UActorComponent
 {
@@ -38,6 +39,7 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category="health")
 	float CurrentHealth = 0.0f;
 
-	UPROPERTY(BlueprintAssignable, BlueprintCallable)
+	UPROPERTY(BlueprintAssignable,BlueprintCallable)
 	FOnDeathEvent OnDeathEvent;
+	
 };
