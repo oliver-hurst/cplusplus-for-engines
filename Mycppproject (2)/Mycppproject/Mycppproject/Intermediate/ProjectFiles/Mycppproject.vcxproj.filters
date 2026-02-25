@@ -42,6 +42,18 @@
     <Filter Include="Source\Mycppproject\Private">
       <UniqueIdentifier>{5189793B-DE93-3F3C-A51F-29B64E10C950}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Mycppproject\Private\wee2 part 1">
+      <UniqueIdentifier>{05F5A54D-3A98-3703-919A-C308F01989C2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Mycppproject\Private\wee2 part 1\BaseProjectile.cpp">
+      <Filter>Source\Mycppproject\Private\wee2 part 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Mycppproject\Private\wee2 part 1\baseTurret.cpp">
+      <Filter>Source\Mycppproject\Private\wee2 part 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Mycppproject\Private\wee2 part 1\HealthComponent.cpp">
+      <Filter>Source\Mycppproject\Private\wee2 part 1</Filter>
+    </ClCompile>
     <Filter Include="Source\Mycppproject\Private\week 1">
       <UniqueIdentifier>{3BAE4EB2-797B-3B96-865F-9A6CA3255D66}</UniqueIdentifier>
     </Filter>
@@ -52,9 +64,6 @@
       <Filter>Source\Mycppproject\Private\week 1</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Mycppproject\Private\week 1\my_gamemode.cpp">
-      <Filter>Source\Mycppproject\Private\week 1</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Mycppproject\Private\week 1\playerController.cpp">
       <Filter>Source\Mycppproject\Private\week 1</Filter>
     </ClCompile>
     <Filter Include="Source\Mycppproject\Private\week 1_task2">
@@ -72,6 +81,18 @@
     <Filter Include="Source\Mycppproject\Public">
       <UniqueIdentifier>{7739E8BA-9B27-3FF3-9CCE-ED799361D44D}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Mycppproject\Public\wee2 part 1">
+      <UniqueIdentifier>{51D78399-24D5-33DB-B8A4-E150C078BADC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Mycppproject\Public\wee2 part 1\BaseProjectile.h">
+      <Filter>Source\Mycppproject\Public\wee2 part 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Mycppproject\Public\wee2 part 1\baseTurret.h">
+      <Filter>Source\Mycppproject\Public\wee2 part 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Mycppproject\Public\wee2 part 1\HealthComponent.h">
+      <Filter>Source\Mycppproject\Public\wee2 part 1</Filter>
+    </ClInclude>
     <Filter Include="Source\Mycppproject\Public\week 1">
       <UniqueIdentifier>{38B40675-579C-338C-8610-ED0764AF900B}</UniqueIdentifier>
     </Filter>

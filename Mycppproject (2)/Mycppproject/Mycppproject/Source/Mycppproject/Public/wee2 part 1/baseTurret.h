@@ -9,7 +9,7 @@
 class ABaseProjectile;
 class UArrowComponent;
 
-UCLASS()
+UCLASS(BlueprintType,Blueprintable)
 class MYCPPPROJECT_API AbaseTurret : public AActor
 {
 	GENERATED_BODY()
@@ -41,7 +41,7 @@ public:
 	UPROPERTY(EditDefaultsOnly,Category="TurretData")
 	FTimerHandle FireTimer;
 	
-	UPROPERTY(EditDefaultsOnly,Category="TurretData")
+	UPROPERTY(EditAnywhere,Category="TurretData")
 	TSubclassOf<ABaseProjectile> ProjectileClass;
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category="TurretData")

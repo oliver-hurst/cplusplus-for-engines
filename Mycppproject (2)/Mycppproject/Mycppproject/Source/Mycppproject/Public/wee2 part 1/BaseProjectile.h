@@ -41,7 +41,7 @@ public:
 	float baseDamage = 10.0f;
 
 	UFUNCTION()
-	void ProJectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
+	void ProjectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 		UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 	
 	

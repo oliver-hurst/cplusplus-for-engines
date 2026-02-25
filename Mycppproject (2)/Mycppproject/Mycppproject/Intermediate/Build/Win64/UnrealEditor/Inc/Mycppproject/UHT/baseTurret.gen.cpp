@@ -109,7 +109,9 @@ struct Z_Construct_UClass_AbaseTurret_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "IncludePath", "wee2 part 1/baseTurret.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/wee2 part 1/baseTurret.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BaseMeshComponent_MetaData[] = {
@@ -162,7 +164,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AbaseTurret_St
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AbaseTurret_Statics::NewProp_FirePoint = { "FirePoint", nullptr, (EPropertyFlags)0x01140000000a0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AbaseTurret, FirePoint), Z_Construct_UClass_UArrowComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FirePoint_MetaData), NewProp_FirePoint_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AbaseTurret_Statics::NewProp_FireSpeed = { "FireSpeed", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AbaseTurret, FireSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FireSpeed_MetaData), NewProp_FireSpeed_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AbaseTurret_Statics::NewProp_FireTimer = { "FireTimer", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AbaseTurret, FireTimer), Z_Construct_UScriptStruct_FTimerHandle, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FireTimer_MetaData), NewProp_FireTimer_MetaData) }; // 3834150579
-const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AbaseTurret_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AbaseTurret, ProjectileClass), Z_Construct_UClass_UClass, Z_Construct_UClass_ABaseProjectile_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ProjectileClass_MetaData), NewProp_ProjectileClass_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AbaseTurret_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AbaseTurret, ProjectileClass), Z_Construct_UClass_UClass, Z_Construct_UClass_ABaseProjectile_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ProjectileClass_MetaData), NewProp_ProjectileClass_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AbaseTurret_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AbaseTurret_Statics::NewProp_BaseMeshComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AbaseTurret_Statics::NewProp_BarrelMeshComponent,
@@ -208,10 +210,10 @@ AbaseTurret::~AbaseTurret() {}
 struct Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_baseTurret_h__Script_Mycppproject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AbaseTurret, AbaseTurret::StaticClass, TEXT("AbaseTurret"), &Z_Registration_Info_UClass_AbaseTurret, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AbaseTurret), 3545980750U) },
+		{ Z_Construct_UClass_AbaseTurret, AbaseTurret::StaticClass, TEXT("AbaseTurret"), &Z_Registration_Info_UClass_AbaseTurret, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AbaseTurret), 2835206331U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_baseTurret_h__Script_Mycppproject_1819097369(TEXT("/Script/Mycppproject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_baseTurret_h__Script_Mycppproject_2748536301(TEXT("/Script/Mycppproject"),
 	Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_baseTurret_h__Script_Mycppproject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_baseTurret_h__Script_Mycppproject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

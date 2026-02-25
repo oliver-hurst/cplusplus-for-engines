@@ -26,10 +26,10 @@ MYCPPPROJECT_API UClass* Z_Construct_UClass_ABaseProjectile_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Mycppproject();
 // ********** End Cross Module References **********************************************************
 
-// ********** Begin Class ABaseProjectile Function ProJectileHit ***********************************
-struct Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics
+// ********** Begin Class ABaseProjectile Function ProjectileHit ***********************************
+struct Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics
 {
-	struct BaseProjectile_eventProJectileHit_Parms
+	struct BaseProjectile_eventProjectileHit_Parms
 	{
 		UPrimitiveComponent* HitComponent;
 		AActor* OtherActor;
@@ -59,31 +59,31 @@ struct Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_HitComponent = { "HitComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProJectileHit_Parms, HitComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HitComponent_MetaData), NewProp_HitComponent_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProJectileHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProJectileHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OtherComp_MetaData), NewProp_OtherComp_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProJectileHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProJectileHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Hit_MetaData), NewProp_Hit_MetaData) }; // 267591329
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_HitComponent,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_OtherActor,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_OtherComp,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_NormalImpulse,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::NewProp_Hit,
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_HitComponent = { "HitComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProjectileHit_Parms, HitComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HitComponent_MetaData), NewProp_HitComponent_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProjectileHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProjectileHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OtherComp_MetaData), NewProp_OtherComp_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProjectileHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseProjectile_eventProjectileHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Hit_MetaData), NewProp_Hit_MetaData) }; // 267591329
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_HitComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_OtherActor,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_OtherComp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_NormalImpulse,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::NewProp_Hit,
 };
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ABaseProjectile, nullptr, "ProJectileHit", Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::PropPointers), sizeof(Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::BaseProjectile_eventProJectileHit_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::Function_MetaDataParams)},  };
-static_assert(sizeof(Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::BaseProjectile_eventProJectileHit_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_ABaseProjectile_ProJectileHit()
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ABaseProjectile, nullptr, "ProjectileHit", Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::PropPointers), sizeof(Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::BaseProjectile_eventProjectileHit_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::BaseProjectile_eventProjectileHit_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ABaseProjectile_ProjectileHit()
 {
 	static UFunction* ReturnFunction = nullptr;
 	if (!ReturnFunction)
 	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABaseProjectile_ProJectileHit_Statics::FuncParams);
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABaseProjectile_ProjectileHit_Statics::FuncParams);
 	}
 	return ReturnFunction;
 }
-DEFINE_FUNCTION(ABaseProjectile::execProJectileHit)
+DEFINE_FUNCTION(ABaseProjectile::execProjectileHit)
 {
 	P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComponent);
 	P_GET_OBJECT(AActor,Z_Param_OtherActor);
@@ -92,17 +92,17 @@ DEFINE_FUNCTION(ABaseProjectile::execProJectileHit)
 	P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->ProJectileHit(Z_Param_HitComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit);
+	P_THIS->ProjectileHit(Z_Param_HitComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit);
 	P_NATIVE_END;
 }
-// ********** End Class ABaseProjectile Function ProJectileHit *************************************
+// ********** End Class ABaseProjectile Function ProjectileHit *************************************
 
 // ********** Begin Class ABaseProjectile **********************************************************
 void ABaseProjectile::StaticRegisterNativesABaseProjectile()
 {
 	UClass* Class = ABaseProjectile::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
-		{ "ProJectileHit", &ABaseProjectile::execProJectileHit },
+		{ "ProjectileHit", &ABaseProjectile::execProjectileHit },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -169,7 +169,7 @@ struct Z_Construct_UClass_ABaseProjectile_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ABaseProjectile_ProJectileHit, "ProJectileHit" }, // 3444811001
+		{ &Z_Construct_UFunction_ABaseProjectile_ProjectileHit, "ProjectileHit" }, // 2044084937
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -224,10 +224,10 @@ ABaseProjectile::~ABaseProjectile() {}
 struct Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_BaseProjectile_h__Script_Mycppproject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABaseProjectile, ABaseProjectile::StaticClass, TEXT("ABaseProjectile"), &Z_Registration_Info_UClass_ABaseProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseProjectile), 4196511930U) },
+		{ Z_Construct_UClass_ABaseProjectile, ABaseProjectile::StaticClass, TEXT("ABaseProjectile"), &Z_Registration_Info_UClass_ABaseProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseProjectile), 577039225U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_BaseProjectile_h__Script_Mycppproject_631889782(TEXT("/Script/Mycppproject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_BaseProjectile_h__Script_Mycppproject_3858894175(TEXT("/Script/Mycppproject"),
 	Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_BaseProjectile_h__Script_Mycppproject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_BaseProjectile_h__Script_Mycppproject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

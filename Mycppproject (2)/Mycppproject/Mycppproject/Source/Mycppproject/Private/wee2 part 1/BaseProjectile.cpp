@@ -30,7 +30,7 @@ ABaseProjectile::ABaseProjectile()
 	ProjectileMovementComponent->MaxSpeed = 1000.0f;
 	ProjectileMovementComponent->ProjectileGravityScale = 0.0f;
 
-	SphereComponent->OnComponentHit.AddUniqueDynamic(this, &ABaseProjectile::ProJectileHit);
+	SphereComponent->OnComponentHit.AddUniqueDynamic(this, &ABaseProjectile::ProjectileHit);
 }
 
 // Called when the game starts or when spawned
@@ -46,13 +46,15 @@ void ABaseProjectile::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void ABaseProjectile::ProJectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
+void ABaseProjectile::ProjectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	UGameplayStatics::ApplyDamage(OtherActor, baseDamage, nullptr, this, nullptr);
+	UGameplayStatics::ApplyDamage(OtherActor, baseDamage ,nullptr, this, nullptr);
 
 	Destroy();
 }
+
+
 
 
 

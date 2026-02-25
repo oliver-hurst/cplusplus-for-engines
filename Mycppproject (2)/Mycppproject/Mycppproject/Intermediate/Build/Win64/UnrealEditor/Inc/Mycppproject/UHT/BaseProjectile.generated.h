@@ -22,7 +22,7 @@ struct FHitResult;
 
 // ********** Begin Class ABaseProjectile **********************************************************
 #define FID_Users_h021185l_Documents_GitHub_cplusplus_for_engines_Mycppproject__2__Mycppproject_Mycppproject_Source_Mycppproject_Public_wee2_part_1_BaseProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execProJectileHit);
+	DECLARE_FUNCTION(execProjectileHit);
 
 
 MYCPPPROJECT_API UClass* Z_Construct_UClass_ABaseProjectile_NoRegister();
